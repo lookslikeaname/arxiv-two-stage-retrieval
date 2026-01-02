@@ -50,9 +50,3 @@ We analyzed the time distribution for a single query:
 While the Re-ranking step introduces additional latency, it provides a crucial boost in retrieval quality.
 <img width="764" height="383" alt="image" src="https://github.com/user-attachments/assets/d2e20fdb-4f33-4eef-a0d9-748bac55c118" />
 
-
-📂 Project Structure
-- notebooks/: Jupyter notebooks with EDA, training, and evaluation code.
-- data/: Sample data (metadata and test queries).
-- requirements.txt: List of dependencies.
-
