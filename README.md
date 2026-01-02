@@ -35,7 +35,7 @@ The system processes data by concatenating the paper's title and abstract. The s
 
 📊 Performance & Results
 The system was evaluated on a test dataset of 1,000 queries.
-<img width="572" height="121" alt="image" src="https://github.com/user-attachments/assets/4355c6c2-d05e-461c-b827-c28e68978a40" />
+     <img width="572" height="121" alt="image" src="https://github.com/user-attachments/assets/4355c6c2-d05e-461c-b827-c28e68978a40" />
 
 
 Latency Profiling
