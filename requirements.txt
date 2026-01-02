@@ -1,0 +1,10 @@
+pandas
+numpy
+matplotlib
+tqdm
+torch
+sentence-transformers
+langchain
+langchain-community
+langchain-huggingface
+faiss-cpu
