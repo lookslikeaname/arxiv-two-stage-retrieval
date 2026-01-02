@@ -42,7 +42,7 @@ The system was evaluated on a test dataset of 1,000 queries.
 
 
 
-Latency Profiling
+📊 Latency Profiling
 
 We analyzed the time distribution for a single query:
 - Retrieval Phase: ~40% (63ms)
