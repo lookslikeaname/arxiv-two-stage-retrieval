@@ -1,2 +1,2 @@
 # arxiv-two-stage-retrieval
-Retrieval system for articles from the arXiv
+High-performance semantic search engine for arXiv papers using Two-Stage Retrieval (LangChain, FAISS, Cross-Encoders)
