@@ -34,6 +34,7 @@ The system processes data by concatenating the paper's title and abstract. The s
    - Role: Maximizing accuracy by analyzing context deeply.
 
 📊 Performance & Results
+
 The system was evaluated on a test dataset of 1,000 queries.
      <img width="572" height="121" alt="image" src="https://github.com/user-attachments/assets/4355c6c2-d05e-461c-b827-c28e68978a40" />
      <img width="796" height="494" alt="image" src="https://github.com/user-attachments/assets/b2e0931b-e217-4369-9d56-22d94baaf331" />
@@ -41,6 +42,7 @@ The system was evaluated on a test dataset of 1,000 queries.
 
 
 Latency Profiling
+
 We analyzed the time distribution for a single query:
 - Retrieval Phase: ~40% (63ms)
 - Re-ranking Phase: ~60% (94ms)
