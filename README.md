@@ -36,6 +36,8 @@ The system processes data by concatenating the paper's title and abstract. The s
 📊 Performance & Results
 The system was evaluated on a test dataset of 1,000 queries.
      <img width="572" height="121" alt="image" src="https://github.com/user-attachments/assets/4355c6c2-d05e-461c-b827-c28e68978a40" />
+     <img width="796" height="494" alt="image" src="https://github.com/user-attachments/assets/b2e0931b-e217-4369-9d56-22d94baaf331" />
+
 
 
 Latency Profiling
@@ -43,14 +45,11 @@ We analyzed the time distribution for a single query:
 - Retrieval Phase: ~40% (63ms)
 - Re-ranking Phase: ~60% (94ms)
 While the Re-ranking step introduces additional latency, it provides a crucial boost in retrieval quality.
+<img width="764" height="383" alt="image" src="https://github.com/user-attachments/assets/d2e20fdb-4f33-4eef-a0d9-748bac55c118" />
+
 
 📂 Project Structure
-notebooks/: Jupyter notebooks with EDA, training, and evaluation code.
-data/: Sample data (metadata and test queries).
-requirements.txt: List of dependencies.
+- notebooks/: Jupyter notebooks with EDA, training, and evaluation code.
+- data/: Sample data (metadata and test queries).
+- requirements.txt: List of dependencies.
 
-🚀 Future Improvements
-Based on the profiling results, the following optimizations are proposed:
-1. HNSW Index: Replace FAISS Flat index with HNSW for scalable approximate search.
-2. Quantization: Use INT8 quantization for the Re-ranker to speed up inference.
-3. ONNX Runtime: Export models to ONNX for faster execution on production hardware.
