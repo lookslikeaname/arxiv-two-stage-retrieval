@@ -1,6 +1,10 @@
 # arxiv-two-stage-retrieval
 Semantic Search for Scientific Papers (arXiv)
 
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.1-orange)
+![Status](https://img.shields.io/badge/Status-Educational_Project-green)
+
 This project implements a high-performance semantic search engine capable of retrieving relevant scientific papers based on natural language queries. 
 The system utilizes a Two-Stage Retrieval pipeline to achieve high accuracy (MRR@5 = 0.938) while maintaining low latency.
 
