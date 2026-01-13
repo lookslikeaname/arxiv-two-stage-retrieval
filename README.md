@@ -9,9 +9,12 @@ This project implements a high-performance semantic search engine capable of ret
 The system utilizes a Two-Stage Retrieval pipeline to achieve high accuracy (MRR@5 = 0.938) while maintaining low latency.
 
 🚀 Project Overview
+
 The goal of this project was to build a search system that indexes scientific articles (from the arXiv dataset) and matches them with user queries. 
 Unlike keyword-based search (e.g., BM25), this system uses dense vector embeddings to understand the semantic meaning of the text. 
-Key Features
+
+
+⚙️Key Features
 - Semantic Understanding: Matches queries to documents based on meaning, not just keyword overlap.
 - Two-Stage Pipeline: Combines fast retrieval with precise re-ranking.
 - High Accuracy: Achieved a Mean Reciprocal Rank (MRR@5) of 0.938.
